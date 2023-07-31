@@ -1,0 +1,43 @@
+/* CSS code */
+.user-search-container {
+    width: 300px;
+    padding: 10px;
+  }
+  
+  #search-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #search-button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-results-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .search-result-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .search-result-item:last-child {
+    border-bottom: none;
+  }
+  
+  .search-result-item .username {
+    font-weight: bold;
+  }
+  
+  .search-result-item .name {
+    font-size: 14px;
+    color: #999;
+  }
+  
